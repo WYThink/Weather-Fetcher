@@ -11,7 +11,7 @@ class cityInput : public apiInfo {
 	private:
 
 		/* <--- City Name & URL ---> */
-		string		CITY_Name{};												// City Name
+		string		CITY_Name{};							// City Name
 		string		URL{ "https://api.weatherapi.com/v1/current.json" };		// URL To Fetch City
 
 	public:
@@ -45,10 +45,10 @@ class cityInput : public apiInfo {
 	public:
 
 		/* <--- Member Methods ---> */
-		cityInput();							// Constructor
-		~cityInput();							// Destructor
+		cityInput();					// Constructor
+		~cityInput();					// Destructor
 		void assignInfo(const json& OBJ);		// Assign Info
-		bool getWeather();						// Verify City
+		bool getWeather();				// Verify City
 };
 
 #endif
