@@ -131,7 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="APIInfo.cpp" />
+    <ClCompile Include="CityInput.cpp" />
     <ClCompile Include="Weather-Fetcher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aliases.h" />
+    <ClInclude Include="APIInfo.h" />
+    <ClInclude Include="CityInput.h" />
+    <ClInclude Include="ErrorHandling.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
