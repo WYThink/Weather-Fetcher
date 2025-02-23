@@ -45,10 +45,10 @@ class cityInput : public apiInfo {
 	public:
 
 		/* <--- Member Methods ---> */
-		cityInput();															// Constructor
-		~cityInput();															// Destructor
+		cityInput();							// Constructor
+		~cityInput();							// Destructor
 		void assignInfo(const json& OBJ);		// Assign Info
-		bool getWeather();														// Verify City
+		bool getWeather();						// Verify City
 };
 
 #endif

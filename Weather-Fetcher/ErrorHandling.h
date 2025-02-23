@@ -20,7 +20,7 @@ class RequestTimeout : public std::exception {
 		const char* what() const noexcept override {
 			return m_ErrorMessage.c_str();
 		}
-};
+};	
 
 
 /* <--- Invalid City Exception ---> */
