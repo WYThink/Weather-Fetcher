@@ -27,7 +27,7 @@ bool cityInput::getWeather() {
 
         /* <--- Error Checking ---> */
         if (!status_code) throw RequestTimeout{ "Request TimeOut" };                                                 // Throw Error , If Request TimeOut
-        if(status_code >= 400) 
+        if (status_code >= 400) 
         {
             error_code = json::parse(RESPONSE.text).at("error").at("code").get<int>();
 
