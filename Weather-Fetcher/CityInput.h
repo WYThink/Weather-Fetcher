@@ -34,13 +34,13 @@ class cityInput : public apiInfo {
 		string	condition;
 		string	wind_dir;
 		double	wind_kph;
-		int		humidity;
+		int	humidity;
 
 		/* <--- Response Status Code  ---> */
-		int		status_code;
+		int	status_code;
 
 		/* <--- Response Error Code ---> */
-		int		error_code;
+		int	error_code;
 	
 	public:
 
