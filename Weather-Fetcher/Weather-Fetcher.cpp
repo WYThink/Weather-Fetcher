@@ -9,7 +9,7 @@
 int main() {
 
 	try {
-		/* <--- apiInfo Object ---> */
+		/* <--- cityInput Object ---> */
 		std::shared_ptr<cityInput> cityOBJ{ std::make_shared<cityInput>() };
 	}
 	catch (const std::exception& e) {
