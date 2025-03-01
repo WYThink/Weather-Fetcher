@@ -18,7 +18,7 @@
 - **C++**: Core programming language used for developing the application.
 - **CPR (C++ Requests Library)**: Used to make HTTP requests to the WeatherAPI for fetching weather data.
 - **nlohmann/json**: A modern C++ JSON library for parsing and manipulating JSON responses from the API.
-- **WeatherAPI**: Provides accurate and up-to-date weather information through its RESTful API.
+- **WeatherAPI**: Provides accurate and up-to-date weather information through its RESTful API. Link : https://www.weatherapi.com/
 
 ---
 
